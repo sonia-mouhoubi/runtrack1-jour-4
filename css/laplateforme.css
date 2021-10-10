@@ -1,0 +1,102 @@
+html {
+    scroll-behavior: smooth;
+}
+body {
+	
+	margin : 0 auto;
+	width: 80%; 
+	padding : 0;
+	color : #534449;	
+	line-height: 1.6;  	
+}
+main, footer, aside {
+	margin-left : 12em;
+}
+h1, h2, h3, h4 {
+    color : #263f92;
+    font-size : 2em;
+}
+li {
+	list-style : none;
+}
+h1 {
+	text-align : center;
+	margin-top : 3em;
+}
+h2 {
+	text-align : center;
+	font-size : 2em;
+}
+
+/*Header*/
+header {
+	z-index: 1;
+	position : fixed;
+	left : 0;
+	top : 0;
+	background-color : #263f92;
+	padding : 1em;	
+    height : 100vh;
+}
+.logo {
+    width: 100px;
+	height: 100px;
+    margin: auto;
+
+}
+nav a {
+    display : block;
+    padding: 0.1em;
+}
+a {
+	text-decoration : none;
+	color : white;
+	font-weight : bold;
+
+}
+/**/
+.video-cyber {
+    padding : 2em;
+    margin-top: 3em;
+    margin-bottom: 6em;
+  
+}
+.video-cyber a {
+    background-color: #ffca4b;
+    padding : 0.5em;
+    border-radius:  5px;
+    margin-left : 7em;
+}
+.icone {
+    width: 100px;
+	height: 100px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.dpo img {
+    margin-left: 50%;
+    background-color: aqua;
+}
+.professionnel img{
+    margin-left: 50%;
+    background-color: aqua;
+}
+.admin img {
+    margin-left: 50%;
+    background-color: aqua;
+}
+footer {
+    background-color: #ffca4b;
+    padding: 2em;
+    display: flex;
+}
+aside {
+    padding: 2em;
+   
+}
+aside article {
+    width: 50%;
+}
+
+
+
